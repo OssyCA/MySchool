@@ -24,15 +24,15 @@ public partial class Grade
     public virtual Employee FkTeacher { get; set; }
 
     public static Dictionary<int, string> GetAlphabetGrade()
-    { 
+    {
         return new Dictionary<int, string>
         {
-            {1, "A"},
-            {2, "B"},
-            {3, "C"},
-            {4, "D"},
-            {5, "E"},
-            {6, "F"}
+            {6, "A"},
+            {5, "B"},
+            {4, "C"},
+            {3, "D"},
+            {2, "E"},
+            {1, "F"}
         };
     }
     
